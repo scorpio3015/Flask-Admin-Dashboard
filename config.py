@@ -1,4 +1,5 @@
 # Create dummy secrey key so we can use sessions
+# Secret
 SECRET_KEY = '123456790'
 
 # Create in-memory database
