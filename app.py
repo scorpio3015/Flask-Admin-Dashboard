@@ -15,7 +15,6 @@ app = Flask(__name__)
 app.config.from_pyfile('config.py')
 db = SQLAlchemy(app)
 
-# hash comment
 
 # Define models
 roles_users = db.Table(
